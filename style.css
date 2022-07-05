@@ -1,0 +1,77 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+.first-section{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.half-width{
+    width: 50%;
+    
+}
+.half-width img{
+    width: 900px;
+    padding-left: -100px;   
+}
+h1{
+    font-size: 100px;
+}
+.button{
+    background-image: linear-gradient(orange, red);
+    padding: 20px;
+    margin-top: 50px;
+    width: 120px;
+    border-radius: 45px;
+}
+.button a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+.second-section{
+    display: flex;
+    margin-top: 150px;
+    background-image: url(images/shapes/frame.jpg);
+    background-size: cover; 
+}
+#b2{
+    margin-top: 100px;
+}
+.half-width p{
+    padding-right: 100px;
+    text-align: justify;
+}
+
+.third-section{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+ h2{
+    font-weight: 600;
+    font-size: 50px;
+ }
+
+.row{
+    display: flex;
+ }
+ .recepie{
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+ }
+ .recepie-col{
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    width: 40%;
+    padding: 50px;
+    padding: 2px 40px 40px;
+ }
+ 
+ .recepie-col img{
+    width: 100%;
+    border-radius: 10px;
+ }
